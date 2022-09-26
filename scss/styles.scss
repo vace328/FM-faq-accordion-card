@@ -1,0 +1,66 @@
+// @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&family=Manrope:wght@400&display=swap');
+
+/*----------  base
+------------------------------------------------------------------------------*/
+@import "base/reset";
+@import "base/variables";
+@import "base/typography"; 
+
+/*----------  helpers
+------------------------------------------------------------------------------*/
+// @import "helpers/functions"; 
+
+/*----------  components
+------------------------------------------------------------------------------*/
+
+
+/*----------  layout
+------------------------------------------------------------------------------*/
+// @import "layout/header"; 
+// @import "layout/footer";    
+
+  
+
+
+
+ 
+* {
+    box-sizing: border-box;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0,0);
+    border: 0;
+}
+.question-body {
+    display: block;
+    color: black;
+}
+.question-header {
+    background-color: antiquewhite;
+    border: 1px solid brown;
+    position: relative;
+    &::after {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        // background-color: aqua;
+        top: 0;
+        left: 0;
+        z-index: 50;
+    }
+}
+
+.question-header.active + .question-body {
+    color: red;
+}
+// .question-body[data-open="on"], .active {    
+//     height: 0px;
+// }
