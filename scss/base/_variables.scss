@@ -1,22 +1,23 @@
 // ----- Font family-----
-$ffamily_primary: 'Open Sans';
-$ffamily_accent: 'Raleway';
+$ffamily_primary: 'Kumbh Sans';
 
 // ----- Font size-----
 $fsize_primary: 12px;
 
-// ----- Colors [LIGHT] -----
+// ----- Colors -----
 
 $hover: #6B9BFF;
 
-$primary_lvl_1: hsl(238, 22%, 44%);
-$primary_lvl_2: hsl(243, 87%, 12%);
+$primary_lvl_1: hsl(240, 6%, 50%);
+$primary_lvl_2: hsl(237, 12%, 33%);
+$primary_lvl_3: hsl(238, 29%, 16%);
+$accent: hsl(14, 88%, 65%);
+
+// Dividers
+$neutral_lvl_1: hsl(240, 5%, 91%);
 
 
-$neutral_lvl_1: hsl(240, 75%, 98%);
-$neutral_lvl_1: #F8F8FE;
-$neutral_lvl_2: hsl(0, 0%, 75%);
-
-
-$accent_prim:  hsl(224, 93%, 58%);
-$accent_sec: hsl(170, 45%, 43%);
+// Background gradient
+$bg_neutral: white;
+$bg1:  hsl(273, 75%, 66%);
+$bg2: hsl(240, 73%, 65%);
