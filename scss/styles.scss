@@ -61,3 +61,12 @@ h2 {
 //         text-align: left;
 //     }
 // }
+
+@media screen and (max-width: 1040px) { 
+    body {
+        padding: 80px 40px;
+    }
+    h2 {
+        text-align: center;
+    }
+}
