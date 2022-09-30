@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://vace328.github.io/FM-faq-accordion-card/)
-- Live Site URL: [Demo](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/vace328/FM-faq-accordion-card)
+- Live Site URL: [Demo](https://vace328.github.io/FM-faq-accordion-card/)
 
 ## My process
 
