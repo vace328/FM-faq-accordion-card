@@ -76,11 +76,6 @@ main {
 
 
 
-// @media screen and (max-width: 375px) {
-//     .illustration-imgs-sm {
-//         display: block;
-//     }
-// }
 @media screen and (max-width: 1040px) {
     main {
         flex-direction: column;
@@ -99,5 +94,24 @@ main {
     .img-wrapper img {
         display: block;
         margin: 0 auto;
+    }
+}
+@media screen and (max-width: 630px) {
+    .illustration-imgs-sm {
+        // border: 2px solid red;
+        background-position: center 0px;
+        background-repeat: no-repeat;
+        background-size: unset;
+        
+         
+        // padding-bottom: 90px;
+        // padding-top: 40px;
+    }
+    .img-wrapper .illustration-img {
+        position: absolute;
+        width: 237px;
+        top: -82%;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }

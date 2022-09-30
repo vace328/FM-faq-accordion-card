@@ -6,20 +6,11 @@
 @import "base/variables";
 @import "base/typography"; 
 
-/*----------  helpers
-------------------------------------------------------------------------------*/
-// @import "helpers/functions"; 
-
 /*----------  components
 ------------------------------------------------------------------------------*/
-@import "components/question"; 
-// @import "components/i1"; 
+@import "components/question";
 @import "components/i2"; 
 
-/*----------  layout
-------------------------------------------------------------------------------*/
-// @import "layout/header"; 
-// @import "layout/footer";    
 
 * {
     box-sizing: border-box;
@@ -35,7 +26,6 @@
     clip: rect(0,0,0,0,0);
     border: 0;
 }
-
 body {
     background: rgb(175,103,233);
     background: linear-gradient(180deg, rgba(175,103,233,1) 20%, rgba(101,101,231,1) 73%);
@@ -43,11 +33,6 @@ body {
     min-height: 100vh;
     padding: 129px 24px 40px 64px;
 }
-// main {
-//     display: flex;
-//     flex-direction: column;
-// }
-
 h2 {
     width: 100%;
     text-align: left;
@@ -55,12 +40,7 @@ h2 {
     margin-bottom: 25px;
 }
 
-
-// @media screen and (max-width: 1600px) { 
-//     h2 {
-//         text-align: left;
-//     }
-// }
+// MEDIA QUERIES
 
 @media screen and (max-width: 1040px) { 
     body {
@@ -69,4 +49,15 @@ h2 {
     h2 {
         text-align: center;
     }
+}
+@media screen and (max-width: 630px) { 
+    body {
+        padding: 148px 24px 40px 24px;
+    }
+    h2 {
+        text-align: center;
+        padding-top: 4px;
+        margin-bottom: 20px;
+    }
+
 }
